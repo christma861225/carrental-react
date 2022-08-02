@@ -1,0 +1,38 @@
+.car-container {
+  padding-top: 25px;
+  margin-left: 50px;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  h1 {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #313131;
+  }
+  h3 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #313131;
+  }
+  h5 {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 16px;
+    color: #474747;
+  }
+  .car-item{
+    margin: 25px 0;
+  }
+  .avatar{
+    width: 82px;
+    height: 82px;
+    margin: auto;
+    border: 1px solid #000000;
+    border-radius: 8px;
+  }
+}

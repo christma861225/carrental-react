@@ -1,0 +1,32 @@
+.user-engagement {
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 36px;
+    margin-bottom: 24px;
+
+    .title {
+      font-family: "Poppins";
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      color: #000000;
+    }
+
+    select {
+      width: 214px;
+      height: 26px;
+      border: 1.5px solid #dae3eb;
+      border-radius: 10px;
+      font-family: "Poppins";
+      font-weight: 300;
+      font-size: 11.0675px;
+      line-height: 17px;
+      color: #bac9d6;
+    }
+  }
+}

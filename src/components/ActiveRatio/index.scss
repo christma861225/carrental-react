@@ -1,0 +1,37 @@
+.active-ratio {
+  height: 100%;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+
+  .chart {
+    transform: rotateY(180deg);
+  }
+
+  .value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    span {
+      &:first-child {
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 91.689px;
+        line-height: 138px;
+        color: #2f83eb;
+      }
+
+      &:last-child {
+        position: absolute;
+        top: 24px;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 25.0433px;
+        line-height: 30px;
+        color: #2f83eb;
+      }
+    }
+  }
+}

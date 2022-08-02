@@ -1,0 +1,57 @@
+.user {
+  background: #ffffff;
+
+  .toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+    & > div:first-child {
+
+      .title {
+        font-family: "Poppins";
+        font-weight: 700;
+        font-size: 29.6306px;
+        line-height: 44px;
+        margin-bottom: 5px;
+      }
+
+      .description {
+        font-family: "Poppins";
+        font-size: 16px;
+        line-height: 24px;
+        color: #313131;
+        margin-bottom: 10px;
+      }
+    }
+    & > div:last-child{
+      width: 208px;
+      margin-top: auto;
+    }
+  }
+
+  .action {
+    display: flex;
+
+    button{
+      width: 27px;
+      height: 23px;
+      border-radius: 6px;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3px;
+      color: #fff;
+      font-size: 12px;
+    }
+    .deleteButton {
+      background: #db4c4c;
+    }
+
+    .editButton {
+      background: #c7c7c7;
+    }
+  }
+}

@@ -1,0 +1,193 @@
+.user-profile {
+  background: #ffffff;
+
+  .toolbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+
+    & > div:first-child {
+      width: 110px;
+      img {
+        width: 110px;
+        height: 110px;
+      }
+    }
+
+    & > div:last-child {
+      width: 100%;
+      padding-left: 45px;
+      .title {
+        display: flex;
+        width: 100%;
+        & > div:first-child {
+          display: flex;
+          width: 100%;
+          font-family: "Poppins";
+          font-weight: 700;
+          font-size: 29.6306px;
+          line-height: 44px;
+          margin-bottom: 5px;
+        }
+        & > div:last-child {
+          width: 150px;
+          button {
+            width: 54px;
+            height: 45px;
+          }
+          .deleteButton {
+            background: #db4c4c;
+            border-radius: 8px;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 3px;
+            font-size: 20px;
+            color: #fff;
+          }
+          .editButton {
+            background: #c7c7c7;
+            border-radius: 8px;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 3px;
+            font-size: 20px;
+            color: #fff;
+          }
+        }
+      }
+      .description {
+        display: block;
+        width: 100%;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #313131;
+      }
+    }
+  }
+
+  .saveButton {
+    background-color: #c7c7c7;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #ffffff;
+    width: 60px;
+    height: 23px;
+    border: none;
+    border-radius: 28px;
+  }
+  .action {
+    display: flex;
+
+    button{
+      width: 27px;
+      height: 23px;
+      border-radius: 6px;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3px;
+      color: #fff;
+      font-size: 12px;
+    }
+    .deleteButton {
+      background: #db4c4c;
+    }
+
+    .editButton {
+      background: #c7c7c7;
+    }
+  }
+  .info-table {
+    border-collapse: collapse;
+    margin-top: 30px;
+    width: 100%;
+
+    td {
+      font-family: "Poppins";
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: #313131;
+      text-align: left;
+      padding: 10px 0px;
+    }
+  }
+
+  .toolbar2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 29.6306px;
+    line-height: 44px;
+    margin: 20px 0;
+
+    & > div:last-child {
+      width: 208px;
+      margin-top: auto;
+    }
+  }
+  .tabbar {
+    border-bottom: 2px solid #808080;
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+    & > div{
+      display: flex;
+      height: 80px;
+    }
+
+    .tabitem {
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin: 0 20px;
+      padding-left: 30px;
+
+      &.active{
+        border-bottom: 6px solid #2F83EB;
+      }
+
+      div{
+        display: inline-flex;
+      }
+
+      .icon-container {
+        width: 30px;
+        height: 30px;
+        img{
+          width: 100%;
+        }
+      }
+
+      .label {
+        padding: 0px 2px;
+        margin-left: 10px;
+        font-family: "Poppins";
+        font-weight: 500;
+        font-size: 25px;
+      }
+
+      .dot-container{
+        margin: auto;
+        height: 100%;
+        img{
+          margin: auto;
+        }
+      }
+    }
+  }
+}

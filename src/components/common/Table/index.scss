@@ -1,0 +1,56 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+
+  .my-table {
+    width: 100%;
+    min-width: 800px;
+    border-collapse: collapse;
+    border: 1px solid #cacaca;
+    width: 100%;
+
+    th, td{
+      padding: 3px 4px;
+      @media only screen and (min-width: 960px) {
+        /* styles for browsers larger than 960px; */
+        padding: 3px 4px;
+        font-size: 12px;
+      }
+      @media (min-width: 1025px) {
+        /* big landscape tablets, laptops, and desktops */
+        padding: 7px 6px;
+        font-size: 13px;
+      }
+      @media (min-width: 1281px) {
+        /* hi-res laptops and desktops */
+        padding: 11px 8px;
+        font-size: 14px;
+      }
+      @media only screen and (min-width: 1440px) {
+        /* styles for browsers larger than 1440px; */
+        padding: 15px 10px;
+        font-size: 15px;
+      }
+      @media only screen and (min-width: 1800px) {
+        /* for sumo sized (mac) screens */
+        padding: 20px 12px;
+        font-size: 16px;
+      }
+      font-family: "Poppins";
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 24px;
+      text-align: center;
+    }
+    th {
+      background: #2f83eb;
+      color: #ffffff;
+      border: 1px solid #cacaca;
+    }
+
+    td {
+      border: 1px solid #cacaca;
+      color: #313131;
+    }
+  }
+}

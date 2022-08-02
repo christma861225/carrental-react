@@ -1,0 +1,153 @@
+.dashboard {
+  & > .title {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 69px;
+    margin-bottom: 7px;
+    @media only screen and (min-width: 960px) {
+      /* styles for browsers larger than 960px; */
+      font-size: 28px;
+    }
+    @media (min-width: 1025px) {
+      /* big landscape tablets, laptops, and desktops */
+      font-size: 32px;
+    }
+    @media (min-width: 1281px) {
+      /* hi-res laptops and desktops */
+      font-size: 36px;
+    }
+    @media only screen and (min-width: 1440px) {
+      /* styles for browsers larger than 1440px; */
+      font-size: 40px;
+    }
+    @media only screen and (min-width: 1800px) {
+      /* for sumo sized (mac) screens */
+      font-size: 46px;
+    }
+  }
+
+  & > .description {
+    max-width: 806px;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+    margin-bottom: 53px;
+  }
+
+  .charts {
+    margin-bottom: 52px;
+    display: flex;
+    gap: 50px;
+
+    & > div {
+      &:first-child {
+        width: 60%;
+      }
+      &:last-child {
+        width: 40%;
+      }
+    }
+  }
+
+  .user-information {
+    background: #ffffff;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 0 60px;
+
+      button{
+        margin-right: 20px;
+      }
+
+      & > div {
+        padding-right: 62px;
+
+        .title {
+          padding-left: 30px;
+          font-family: "Poppins";
+          font-weight: 700;
+          line-height: 44px;
+          font-size: 16px;
+          @media only screen and (min-width: 960px) {
+            /* styles for browsers larger than 960px; */
+            font-size: 16px;
+          }
+          @media (min-width: 1025px) {
+            /* big landscape tablets, laptops, and desktops */
+            font-size: 18px;
+          }
+          @media (min-width: 1281px) {
+            /* hi-res laptops and desktops */
+            font-size: 21px;
+          }
+          @media only screen and (min-width: 1440px) {
+            /* styles for browsers larger than 1440px; */
+            font-size: 24px;
+          }
+          @media only screen and (min-width: 1800px) {
+            /* for sumo sized (mac) screens */
+            font-size: 29px;
+          }
+        }
+
+        .description {
+          padding-left: 30px;
+          font-family: "Poppins";
+          line-height: 24px;
+          color: #313131;
+          font-size: 12px;
+          @media only screen and (min-width: 960px) {
+            /* styles for browsers larger than 960px; */
+            font-size: 12px;
+          }
+          @media (min-width: 1025px) {
+            /* big landscape tablets, laptops, and desktops */
+            font-size: 13px;
+          }
+          @media (min-width: 1281px) {
+            /* hi-res laptops and desktops */
+            font-size: 14px;
+          }
+          @media only screen and (min-width: 1440px) {
+            /* styles for browsers larger than 1440px; */
+            font-size: 15px;
+          }
+          @media only screen and (min-width: 1800px) {
+            /* for sumo sized (mac) screens */
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .action {
+    display: flex;
+
+    button{
+      width: 27px;
+      height: 23px;
+      border-radius: 6px;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3px;
+      color: #fff;
+      font-size: 12px;
+    }
+    .deleteButton {
+      background: #db4c4c;
+    }
+
+    .editButton {
+      background: #c7c7c7;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.layout {
+  display: flex;
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .content {
+    width: 100%;
+    padding-left: 300px;
+
+    .page {
+      padding: 20px 70px;
+    }
+  }
+}
